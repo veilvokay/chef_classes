@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    padding: 30px 180px;
+    background-color: #00001d;
+    height: 158px;
+    /* margin:  0 auto; */
+    /* display: flex; */
+}
+
+.content {
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+}
+
+header nav {
+    margin: auto 0 auto 120px;
+}
+
+/* header .logo,
+header .nav {
+    float: left;
+} */
+
+header .social {
+    float: right;
+    margin: auto 0 auto auto;
+
+}
+
+header ul li {
+    font-size: 24px;
+    font-family: mullerr;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav li {
+    margin-right: 80px;
+}
+
+.social li {
+    margin-left: 20px;
+}
+
+
+/* BODY BODY BODY BODY */
+body {
+    background-image: url(../images/cooking-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main {
+    position: relative;
+    text-align: center;
+    margin: 130px 0;
+}
+
+.text {
+    margin-top: 320px;
+}
+
+h1,
+h3 {
+    font-family: debby;
+    color: white;
+}
+
+h1 {
+    font-size: 150px;
+}
+
+h3 {
+    font-size: 72px;
+}
+
+/* BUTTONS BUTTONS BUTTONS BUTTONS */
+.button {
+    margin-top: 90px;
+    width: 400px;
+    height: 85px;
+    background-color: #660000;
+    color: white;
+    font-size: 24px;
+    font-family: mullerr;
+    text-align: center;
+    line-height: 85px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: red;
+    transition: 1s;
+    text-shadow: 4px 4px 5px black;
+}
+
+nav li a:hover {
+    text-shadow: 2px 2px 20px red;
+    letter-spacing: 2px;
+    transition: 1s;
+}
+
+.fa.fa-facebook:hover {
+    color: blue;
+    transition: 0.5s;
+}
+
+.fa.fa-vk:hover {
+    color: cornflowerblue;
+    transition: 0.5s;
+}
+
+.fa.fa-youtube-play:hover {
+    color: red;
+    transition: 0.5s;
+}
+
+
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+
+
